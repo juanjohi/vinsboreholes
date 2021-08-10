@@ -1,0 +1,359 @@
+            @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+            
+            body,
+            html {
+                height: 100%;
+            }
+            
+            .hero {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/underwater.jpg");
+                width: auto;
+                height: 100%;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+            }
+            
+            .img-logo {
+                width: 50%;
+                top: 100px;
+                left: 400px;
+                position: absolute;
+                opacity: 0.3;
+            }
+            
+            #mySidenav a {
+                position: absolute;
+                text-decoration: none;
+                font-size: 12px;
+                left: -70px;
+                transition: 0.3s;
+                padding: 15px;
+                width: 80px;
+                border-radius: 0 5px 5px 0;
+                color: white;
+                z-index: 1;
+            }
+            
+            #mySidenav a:hover {
+                left: 0;
+            }
+            
+            #home {
+                top: 60px;
+                background-color: rgb(201, 36, 187);
+            }
+            
+            #aboutus {
+                top: 120px;
+                background-color: rgb(150, 28, 19);
+            }
+            
+            #projects {
+                top: 180px;
+                background-color: rgb(6, 114, 177);
+            }
+            
+            #services {
+                top: 240px;
+                background-color: rgb(255, 115, 0);
+            }
+            
+            #team {
+                top: 300px;
+                background-color: rgb(212, 16, 16);
+            }
+            
+            #contacts {
+                top: 360px;
+                background-color: aqua;
+            }
+            
+            #gallery {
+                top: 420px;
+                background-color: rgb(100, 177, 55);
+            }
+            
+            #main {
+                right: 40px;
+            }
+            
+            .sidebar-navigation {
+                width: 6.5%;
+                float: left;
+                height: 100%;
+                position: fixed;
+                background-color: rgba(12, 12, 12, 0.9);
+                z-index: 10;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            .hero-inner .text-hero {
+                color: white;
+                font-weight: bold;
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-30%, -50%);
+                z-index: 2;
+                width: 70%;
+                padding: 20px;
+                text-align: right;
+            }
+            
+            .hero-inner .text-hero h1 {
+                font-size: 3.9rem;
+            }
+            
+            .btn {
+                display: block;
+                border: solid white;
+                margin-left: auto;
+                margin-right: auto;
+                color: white;
+                text-decoration: none;
+                font-size: 1.0em;
+                display: inline-block;
+            }
+            
+            .btn2 {
+                border: 1px solid whitesmoke;
+                padding: 0.5em;
+                left: 100px;
+                color: white;
+                display: block;
+                text-decoration: none;
+                background: transparent;
+                font-size: 1.5rem;
+                width: 15%;
+                border-radius: 5%;
+            }
+            
+            .sidebar-navigation .logo a {
+                color: white;
+                text-decoration: none;
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                height: 50px;
+                width: 98%;
+                display: inline-block;
+                padding-left: 30px;
+            }
+            
+            .about {
+                background-color: rgba(224, 219, 219, 0.808);
+            }
+            
+            .about .card {
+                box-shadow: 10px 10px 5px -8px rgba(3, 3, 3, 0.75);
+                -webkit-box-shadow: 10px 10px 5px -8px rgba(3, 3, 3, 0.75);
+                -moz-box-shadow: 10px 10px 5px -8px rgba(3, 3, 3, 0.75);
+            }
+            
+            .accordion .accordion-body {
+                background-color: rgb(216, 221, 221);
+                color: rgb(7, 7, 7);
+            }
+            
+            .accordion .accordion-button {
+                background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+                color: white;
+                font-weight: 600px;
+            }
+            
+            .project-us p {
+                color: rgb(173, 173, 173)
+            }
+            
+            .services {
+                background-color: rgba(224, 219, 219, 0.808);
+            }
+            
+            .services.card {
+                cursor: pointer;
+            }
+            
+            #Team .item .image .featured-button a {
+                font-size: 13px;
+                font-weight: 600;
+                color: #fff;
+                text-align: center;
+                text-transform: capitalize;
+                background-color: rgba(69, 72, 154, 0.9);
+                display: inline-block;
+                height: 44px;
+                line-height: 44px;
+                width: 100%;
+                letter-spacing: 0.25px;
+                text-decoration: none;
+                transition: all 0.5s;
+                position: absolute;
+                z-index: 9;
+                bottom: -44px;
+                opacity: 0;
+            }
+            
+            #Team .item:hover .featured-button a {
+                bottom: 0;
+                opacity: 1;
+            }
+            
+            #Team .item {
+                position: relative;
+                align-items: center;
+                z-index: 10;
+            }
+            
+            #Team .card .card-body li {
+                color: rgb(170, 168, 168);
+            }
+            
+            .contacts {
+                background-color: rgb(218, 218, 218);
+            }
+            
+            #Contacts .separator .footer-list-item a {
+                text-decoration: none;
+                color: rgb(78, 77, 77);
+            }
+            
+            .element-item {
+                position: relative;
+            }
+            
+            .element-item:hover {
+                box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+                transition: 0.5s;
+            }
+            
+            .element-item span {
+                position: absolute;
+                top: 40%;
+                left: 45%;
+                font-size: 40px;
+                color: black;
+                cursor: pointer;
+                opacity: 0;
+            }
+            
+            .element-item:hover span {
+                opacity: 4;
+                transition: 0.5s;
+            }
+            
+            .element-item::before {
+                content: "";
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgb(245, 243, 233);
+                opacity: 0;
+                position: absolute;
+            }
+            
+            .element-item:hover:before {
+                opacity: 0.3;
+                transition: 0.5s;
+            }
+            
+            .footer {
+                background-color: rgba(12, 12, 12, 0.9);
+                height: 80px;
+                line-height: 80px;
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+            }
+            
+            .footer p {
+                margin-bottom: 0px;
+                font-size: 13px;
+                line-height: 80px;
+                color: #fff;
+                letter-spacing: 0.5px;
+                font-weight: 300;
+            }
+            
+            .footer p a {
+                text-decoration: none;
+                color: #fff;
+                font-weight: 600;
+            }
+            
+            .footer .neonText {
+                animation: flicker 1.5s infinite alternate;
+                color: #fff;
+                font-family: 'Zen Tokyo Zoo', cursive;
+                font-size: 1.5rem;
+            }
+            
+            @keyframes flicker {
+                0%,
+                18%,
+                22%,
+                25%,
+                53%,
+                57%,
+                100% {
+                    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa, 0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+                }
+                20%,
+                24%,
+                55% {
+                    text-shadow: none;
+                }
+            }
+            
+            @media screen and (min-width: 768px) and (max-width: 1023px) {
+                .team .container {
+                    width: 50%;
+                    margin: auto;
+                }
+            }
+            
+            @media screen and (min-width: 375px) and (max-width: 812px) {
+                .project-us .container {
+                    width: 62%;
+                    margin: auto;
+                    height: auto;
+                }
+                .hero .text-hero h1 {
+                    font-size: 40px;
+                }
+                .team .container {
+                    width: 90%;
+                }
+                .sidebar-navigation .logo a {
+                    width: 6.5%;
+                    font-size: 8px;
+                }
+            }
+            
+            @media screen and (min-width: 576px) and (max-width: 640px) {
+                .project-us .container {
+                    width: 80%
+                }
+                .about .container .card {
+                    width: 100%;
+                }
+            }
