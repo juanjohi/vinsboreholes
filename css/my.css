@@ -324,7 +324,7 @@
                 }
             }
             
-            @media screen and (min-width: 768px) and (max-width: 1023px) {
+            @media screen and (min-width: 768px) and (max-width: 1024px) {
                 .team .container {
                     width: 50%;
                     margin: auto;
@@ -347,6 +347,10 @@
                     padding-left: 10px;
                     font-size: x-small;
                 }
+                .img-logo {
+                    width: 50%;
+                    left: 100px;
+                }
             }
             
             @media screen and (min-width: 576px) and (max-width: 640px) {
@@ -358,5 +362,30 @@
                 }
                 .footer .neonText {
                     font-size: 20px;
+                }
+            }
+            
+            @media screen and (min-width: 360px) and (max-width: 360px) {
+                .team .container {
+                    width: 80%;
+                }
+                .footer .neonText {
+                    font-size: x-small;
+                }
+                .sidebar-navigation .logo a {
+                    padding-left: 12px;
+                    font-size: x-small;
+                    padding-top: 15px;
+                }
+                .project-us .container {
+                    width: 65%;
+                }
+                .hero .text-hero h1 {
+                    padding-top: 100px;
+                    font-size: 30px;
+                }
+                .img-logo {
+                    left: 100px;
+                    width: 50%;
                 }
             }
