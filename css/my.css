@@ -89,7 +89,7 @@
             }
             
             .sidebar-navigation {
-                width: 6.5%;
+                width: 3.5%;
                 float: left;
                 height: 100%;
                 position: fixed;
@@ -238,6 +238,10 @@
                 position: relative;
             }
             
+            .element-item img {
+                height: 25em;
+            }
+            
             .element-item:hover {
                 box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
@@ -365,7 +369,7 @@
                 }
             }
             
-            @media screen and (min-width: 360px) and (max-width: 360px) {
+            @media screen and (min-width: 320px) and (max-width: 480px) {
                 .team .container {
                     width: 80%;
                 }
@@ -387,5 +391,14 @@
                 .img-logo {
                     left: 100px;
                     width: 50%;
+                }
+                .logo {
+                    display: none;
+                }
+            }
+            
+            @media screen and (min-width:411px) and (max-width:731px) {
+                .project-us .container {
+                    width: 57%;
                 }
             }
